@@ -19,7 +19,7 @@ ul a{
     text-decoration: none;
 }
 .common-button{
-    padding: 10px 10px;
+    padding: 10px 20px;
     border-radius: 5px;
     background-color: blue;
     cursor: pointer;
@@ -28,4 +28,41 @@ ul a{
 }
 header{
     background-image: url(./assets/banner.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+} 
+.header-content{
+    color: aliceblue;
+text-align: center;
+height: 400px;
 }
+.header-content h1{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header-content p{
+    width: 500px;
+}
+header .common-button{
+    margin-top: 300px;
+    width: 200px;
+}
+section h1{
+    text-align: center;
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+section .box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+    margin: 50px;
+}
+
