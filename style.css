@@ -8,14 +8,14 @@ nav {
     align-items: center;
     padding: 20px 8%;
 }
-ul{
+.nav-class{
     display: flex;
     list-style: none;
     gap:20px;
     align-items: center;
     margin: 0 auto;
 }
-ul a{
+.nav-class a{
     text-decoration: none;
 }
 .common-button{
@@ -88,4 +88,22 @@ header .common-button{
 }
 .box-info p {
     margin: 5px;  
+}
+
+
+.card-section{
+    text-align: center;
+    margin-bottom: 0  50px;
+    font-size: 25px; 
+}
+.card-section p{
+    font-size: small;
+}
+.custom-dot::before {
+  content: "•";
+  color: #5a88b9;       
+  font-size: 24px;     
+  font-weight: bold;     
+  padding-right: 8px;    
+  vertical-align: middle;
 }
