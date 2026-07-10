@@ -53,16 +53,39 @@ header .common-button{
     margin-top: 300px;
     width: 200px;
 }
-section h1{
-    text-align: center;
-    display: grid;
-    margin-top: 50px;
-    margin-bottom: 30px;
+.main-container{
+    max-width: 1200px;
+    margin: 100px auto;
 }
-section .box{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:10px;
-    margin: 50px;
+.section-title{
+    text-align: center;
+    margin-bottom: 70px;
 }
 
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+}
+
+.box{
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.box-info{
+    padding: 10px;
+}
+.category{
+    font-size: 14px;
+    color: cornflowerblue;
+    margin-bottom: 4px;
+}
+.box-info h3{
+    margin: 0 5px 6px;
+    font-size: 15px;
+}
+.box-info p {
+    margin: 5px;  
+}
