@@ -89,15 +89,20 @@ header .common-button{
 .box-info p {
     margin: 5px;  
 }
+.pricing-section{
+    max-width: 1200px;
+    margin:40px auto;
 
+}
 
 .card-section{
     text-align: center;
-    margin-bottom: 0  50px;
+    margin: 50px auto;
     font-size: 25px; 
 }
 .card-section p{
     font-size: small;
+    
 }
 .custom-dot::before {
   content: "•";
@@ -106,4 +111,70 @@ header .common-button{
   font-weight: bold;     
   padding-right: 8px;    
   vertical-align: middle;
+}
+.pricing-holder{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cards-info{
+list-style: none;
+border-top: 1px solid rgb(185, 181, 181);
+margin-top: 30px;
+padding-top: 15px;
+}
+.pricing-cards{
+    border: 1px solid rgb(159, 155, 155);
+    border-radius: 3px;
+    width: 300px;
+    padding: 50px;
+}
+.outline-button{
+    padding: 10px 20px;
+    width: 220px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: blue;
+    border: 2px solid blue;
+    margin-top: 40px;
+}
+.pricing-cards .common-button{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.pricing-cards h5{
+    margin-bottom: 10px;
+}
+.pricing-cards h2{
+    margin-bottom: 5px;
+}
+.pro-cards{
+    background-color: #374a5f;
+    color: antiquewhite;
+}
+.pro-cards h5{
+    color: rgb(88, 88, 249);
+}
+footer{
+    background-color: #0D1B2A;
+}
+.fainal-section{
+        max-width: 1200px;
+    color: rgba(245, 245, 220, 0.417);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    height: 70px;
+    padding:30px 40px;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
+footer a{
+    color: rgba(245, 245, 220, 0.417);
+     margin:0 30px;
+     text-decoration: none;
 }
